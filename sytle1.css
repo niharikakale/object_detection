@@ -1,0 +1,83 @@
+body {
+    background-color: hsl(249, 17%, 62%);
+    font-family: Arial;
+    width: 100%;
+    background: linear-gradient(to top, rgba(2, 2, 2, 0.432)50%,rgba(15, 15, 15, 0.5)50%), url(7.gif);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.signup-box {
+    width: 410px;
+    height: 650px;
+    margin: auto;
+    background-color: rgb(19, 18, 18);
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+}
+
+h4 {
+    text-align: center;
+    color: white;
+}
+
+form {
+    width: 320px;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+
+form label {
+    display: flex;
+    margin-left: 5px;
+    margin-top: 30px;
+    font-size: 16px;
+    border-radius: 15px;
+    color: white;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    color: rgb(20, 20, 20);
+    outline: none;
+}
+
+input[type="button"] {
+    width: 250px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 45px;
+    border: none;
+    background-color: #f87307;
+    color: rgb(20, 20, 20);
+    font-size: 16px;
+}
+
+p {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+    border-radius: 15px;
+    color: white;
+}
+
+.para-2 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.para-2 a {
+    color: #eb530d;
+}

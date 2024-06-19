@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag-and-Drop file uploader - Greatstack</title>
+    <link rel="stylesheet" href="/static/upload image.css">
+</head>
+<body>
+<form action="/" method="post" enctype="multipart/form-data">
+    <div class="hero">
+            <label for="input-file" id="drop-area">
+                    <input type="file" name="file" accept="image/*" id="input-file" hidden>
+                    <div id="img-view">
+                        <img src="508-icon.png">
+                        <p>Drag and drop or click here<br>to upload image</p>
+                        <span>upload any images form desktop</span>
+                    </div>
+            </label>
+            <button id="detect-btn" type="submit">DETECT</button>
+    </div>
+</form>
+</body>
+</html>
